@@ -1,0 +1,28 @@
+
+#mylabel{
+    display:block;
+    text-align:center;
+    font-size:10em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    filter:drop-shadow(4px 3px 2px grey)
+
+}
+#mydiv{
+    text-align:center;
+}
+
+.button{
+    font-size:1.5em;
+    padding:10px 20px;
+    color:aqua;
+    border-radius: 20px;
+    cursor:pointer;
+    filter: drop-shadow(3px 3px 4px black);
+    background-color:hsl(350, 81%, 87%);
+    transition: background-color 0.35s;
+
+}
+
+.button:hover{
+    background-color:rgb(194, 35, 62);
+}

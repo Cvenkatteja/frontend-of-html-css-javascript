@@ -1,0 +1,21 @@
+
+#mybox{
+    width:200px;
+    height:200px;
+    background-color:red;
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    position:relative;
+} 
+
+#mybutton{
+    font-size:40px;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    background-color:orange;
+    color:white;
+} 

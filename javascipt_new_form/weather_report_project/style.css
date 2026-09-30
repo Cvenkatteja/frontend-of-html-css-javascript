@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:150vh;
+
+
+
+
+
+}
+
+.weatherform{
+    margin:10px;
+    padding:20px;
+}
+.inputtag{
+    font-size:1.5rem;
+    margin:5px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:5px;
+    font-weight:bold;
+    width:300px;
+}
+
+button[type="submit"]{
+    font-size:1.5rem;
+    font-weight:bolder;
+    padding:5px;
+    border-radius:10px;
+    color:white;
+    background-color:grey;
+    cursor:pointer;
+
+
+}
+button[type="submit"]:hover{
+    background-color:hsl(0, 0%, 30%);
+
+}
+button[type="submit"]:active{
+    transform: translateY(3px);
+
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:2px solid black;
+    padding:50px;
+    background:linear-gradient(189deg, hsla(120, 100%, 25%, 0.774), hsla(180, 100%, 50%, 0.644));
+    border-radius:10px;
+    box-shadow:2px 4px 4px black;
+
+
+}
+.citydisplay{
+    font-size:50px;
+    margin-top:-10px;
+    font-weight:bolder;
+
+
+}
+p{
+    font-size:20px;
+    font-weight:bold;
+    margin:20px;
+
+
+}
+.tempdisplay{
+    margin:0px 10px;
+    font-size:40px;
+    font-weight:bolder;
+
+
+
+}
+.weatherEmoji{
+    font-size:8rem;
+    margin-top:0px;
+    font-weight:bolder;
+
+
+}
+.humdisplay{
+    padding:10px;
+
+}
+.descdisplay{
+    margin:0px 10px;
+    font-size:20px;
+    font-weight:bold;
+
+}
+.displayerror{
+    font-weight:10px;
+    margin:0px 10px;
+    padding:5px;
+
+}
+#map {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+
+

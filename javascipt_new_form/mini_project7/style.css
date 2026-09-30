@@ -1,0 +1,85 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    background-color:beige; 
+}
+#myh1{
+    font-size:50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    text-shadow: 2px 3px 5px black;
+
+}
+#container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:3px solid black;
+    border-radius: 60px;
+    padding: 40px;
+    background-color:grey;
+    color:white;
+    box-shadow:3px 3px 20px 5px black;
+    transition-duration: 3s;
+    transform:scale(0.9);
+
+
+ 
+
+}
+#digits{
+    font-size:4rem;
+    margin-bottom: 20px;
+    text-shadow:2px 2px 2px  orange;
+
+
+
+}
+#controls button{
+    font-size:25px;
+    font-weight:bolder;
+    box-shadow:2px 3px 4px 1px  black;
+    margin:3px;
+    cursor: pointer;
+    border:none;
+    border-radius:8px;
+
+
+    
+}
+#startbtn{
+    color:white;
+    background-color:green;
+}
+#resetbtn{
+    color:white;
+    background-color:orange;
+
+}
+#endbtn{
+    color:white;
+    background-color:red;
+
+}
+#startbtn:hover{
+    background-color:rgba(0, 128, 0, 0.437);
+    transition-duration: 0.5s ease;
+    /* transform:scale(1.45); */
+
+
+}
+#resetbtn:hover{
+    background-color:rgba(255, 166, 0, 0.444);
+
+
+}
+#endbtn:hover{
+    background-color:rgba(255, 0, 0, 0.573);
+}
+
+button:active {
+    transform: translateY(5px);
+}
+

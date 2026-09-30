@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image:url(/mini_project6/images/Central_Park.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+#container{
+    font-size:50px;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    transform: translatey(70px);
+
+
+}
+#clock{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    color:white;
+    width:100%;
+    height:60px;
+    backdrop-filter:blur(1px);
+    background-color:hsla(0, 0%, 100%, 0.001);
+    box-shadow: 2px 2px 4px 2px  black;
+    text-shadow:1px 1px 2px orange;
+
+}
+
+
